@@ -2,7 +2,7 @@
 	<div>
     <!--TODO 路由跳转-->
     <router-link :to="{ path: '/modify', query: { id: -1}}">
-      <Button size="large" type="info">新增成员</Button>
+      <Button size="large" type="info">新增成员~~</Button>
     </router-link>
     <br><br>
     <Table size="large" width="1101" border :columns="columns7" :data="list"></Table>
